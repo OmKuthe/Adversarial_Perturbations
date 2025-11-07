@@ -1,3 +1,35 @@
-venv
-results_real_image
-results_real_image_backup
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch cache and large models
+*.pth
+*.pt
+.cache/
+torch/*
+# specifically ignore hub checkpoints (but if you want to store the downloaded .pth, don't ignore)
+C:\Users\*/.cache/
+
+# outputs
+outputs/
+*.csv
+
+# streamlit
+.streamlit/
+
+# VSCode
+.vscode/
